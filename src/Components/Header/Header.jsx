@@ -24,7 +24,7 @@ export default function Header() {
                         </div>
                         <div className="header-right">
                             <div className="header-lang"></div>
-                            <div className="header-btn"></div>
+                            <div className="header-btn">Get a free quote</div>
                         </div>
                     </div>
                 </div>
