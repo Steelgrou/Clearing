@@ -19,7 +19,9 @@
        "contact-service": "Day of service",
        "contact-add": "Add a note",
        "contact-submit": "Submit message",
-       "contact-holder": "street"
+       "contact-placeholder-address": "please enter an address",
+       "contact-placeholder-email": "please enter an email"
+
        
 
 }

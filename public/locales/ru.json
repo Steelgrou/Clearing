@@ -19,5 +19,6 @@
     "contact-service": "День услуги",
     "contact-add": "Добавить примечание",
     "contact-submit": "Отправить сообщение",
-    "contact-holder": "напишите ваш адрес"
+    "contact-placeholder-address": "введите адрес",
+    "contact-placeholder-email": "введите email"
 }

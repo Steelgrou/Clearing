@@ -1,8 +1,15 @@
+.contact {
+    background-color: #F7F9FC;
+}
+
+
 .contact-wrapper {
     display: flex;
     width: 100%;
     padding: 90px 0;
-    background-color: #F7F9FC
+
+
+
 }
 
 .contact-title {
@@ -27,10 +34,108 @@
 
 .contact-left {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 35px 0 0;
 }
 
 .contact-right {
+    background-color: #FFFFFF;
     width: 50%;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+
+}
+
+#myForm {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+#myForm .div {
+    display: flex;
+
+    flex-direction: column;
+    gap: 15px;
+}
+
+#myForm input {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 25px;
+    border: 0;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+
+}
+
+.btn input {
+    padding: 100px 0;
+
+}
+
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+    margin: 10px;
+    padding: 25px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-quest {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.01px;
+}
+
+.contact-desc {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+}
+
+.contact-btn {
+    width: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+    padding: 25px;
+    background: white;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.7s ease;
+}
+
+.contact-btn:hover {
+    background-color: #f0f0f0;
+    color: #1FA2FF;
 }
 
 .contact-img__phone {
@@ -56,6 +161,5 @@
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 1.600000023841858px;
-
 
 }
