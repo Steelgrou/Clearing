@@ -1,9 +1,26 @@
 {
-       "car": "CARS",
-       "brand": "BRAND",
-       "services": "SERVICES",
-       "about": "ABOUT US",
-       "contacts": "CONTACTS",
-       "blog": "BLOG"
-      
+       "home": "Home",
+       "about": "About",
+       "services": "Services",
+       "articles": "Articles",
+       "contact": "Contact",
+       "free": "Get a free quote",
+       "contact-title": "Contact Us",
+       "contact-subtitle": "In dignissim euismod pretium amet enim a eu nam ut urna accumsan pellentesque lacus duis pharetra eutortor.",
+       "contact-number": "Call us now",
+       "contact-quest": "Not convinced yet?",
+       "contact-desc": "Massa bibendum consectetur maurisid gravida purus, dolor dui amet morbi non nunc urna purus diam.",
+       "contact-btn": "Browse our packages",
+       "contact-fullname": "Full name",
+       "contact-phone": "Phone number",
+       "contact-address": "Adress",
+       "contact-email": "Email",
+       "contact-request": "Requested service",
+       "contact-service": "Day of service",
+       "contact-add": "Add a note",
+       "contact-submit": "Submit message",
+       "contact-holder": "street"
+       
+
 }
+

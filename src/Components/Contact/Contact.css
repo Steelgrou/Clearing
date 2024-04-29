@@ -1,8 +1,61 @@
+.contact-wrapper {
+    display: flex;
+    width: 100%;
+    padding: 90px 0;
+    background-color: #F7F9FC
+}
+
+.contact-title {
+
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    text-align: left;
+    color: #211F54;
+
+}
+
+.contact-subtitle {
+
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    color: #6E7191;
+
+
+}
+
+.contact-left {
+    width: 50%;
+}
+
+.contact-right {
+    width: 50%;
+}
+
 .contact-img__phone {
-    width: 30px;
+    width: 40px;
 }
 
 .contact-call {
     display: flex;
     align-items: center;
+    gap: 10px;
+}
+
+
+.contact-number a {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.01px;
+    color: #211F54;
+}
+
+.contact-number h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.600000023841858px;
+
+
 }

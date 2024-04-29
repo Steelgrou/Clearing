@@ -1,8 +1,15 @@
 import './Contact.css';
 import call from '/contact-phone.svg'
 import axios from 'axios'
-export default function Contact() {
+import { useTranslation } from 'react-i18next'
 
+
+export default function Contact() {
+    const { t, i18n } = useTranslation();
+    const handleChange = (event) => {
+        const selectedLaungage = event.target.value;
+        i18n.changeLanguage(selectedLaungage);
+    }
     // Send message
     const sendMessage = (event) => {
         event.preventDefault();
@@ -39,38 +46,40 @@ export default function Contact() {
                 <div className="container">
                     <div className="contact-wrapper">
                         <div className="contact-left">
-                            <h2>Contact Us</h2>
-                            <h4>In dignissim euismod pretium amet enim a eu nam ut urna accumsan pellentesque lacus duis pharetra eutortor.</h4>
+                            <h2 className='contact-title'>{t('contact-title')}</h2>
+                            <h4 className='contact-subtitle'>{t('contact-subtitle')}</h4>
                             <div className="contact-call">
                                 <div className="contact-img">
                                     <img className='contact-img__phone' src={call} alt="" />
                                 </div>
-                                <div className="contatc-number">
-                                    <h3>Call us now</h3>
+                                <div className="contact-number">
+                                    <h3>{t('contact-number')}</h3>
                                     <a href="tel:+998993024512">(414) 567 - 2109</a>
+
                                 </div>
+                                <hr />
                             </div>
-                            <h5>Not convinced yet?</h5>
-                            <h6>Massa bibendum consectetur maurisid gravida purus, dolor dui amet morbi non nunc urna purus diam.</h6>
-                            <button>Browse our packages</button>
+                            <h5>{t('contact-quest')}</h5>
+                            <h6>{t('contact-desc')}</h6>
+                            <button>{t('contact-btn')}</button>
                         </div>
                         <div className="contact-right">
                             <form id='myForm' onSubmit={sendMessage}>
-                                <label htmlFor="text">Full name</label>
+                                <label htmlFor="text">{t('contact-fullname')}</label>
                                 <input type="text" id='name' required />
-                                <label htmlFor="">Phone number</label>
+                                <label htmlFor="">{t('contact-phone')}</label>
                                 <input type="text" id='number' placeholder='+998' required />
-                                <label htmlFor="">Adress</label>
-                                <input type="text" id='adress' placeholder='Street....' required/>
-                                <label htmlFor="">Email</label>
+                                <label htmlFor="">{t('contact-address')}</label>
+                                <input type="text" id='adress' placeholder={t('contact-holder')} required />
+                                <label htmlFor="">{t('contact-email')}</label>
                                 <input type="text" id='email' placeholder='......@gmail.com' required />
-                                <label htmlFor=""> Requested service</label>
+                                <label htmlFor=""> {t('contact-request')}</label>
                                 <input type="text" id='service' />
-                                <label htmlFor="">Day of service</label>
+                                <label htmlFor="">{t('contact-service')}</label>
                                 <input type="text" id='day' />
-                                <label htmlFor="">Add a note</label>
+                                <label htmlFor="">{t('contact-add')}</label>
                                 <input type="text" id='add' />
-                                <button className='btn-grad' type='submit'>Submit message</button>
+                                <button className='btn-grad' type='submit'>{t('contact-submit')}</button>
                             </form>
 
                         </div>
