@@ -25,6 +25,7 @@ nav ul li a {
 .header-right {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .header-logo img {

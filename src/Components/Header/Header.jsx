@@ -1,6 +1,7 @@
 import './Header.css'
 import { useTranslation } from 'react-i18next'
 import logo from '/logo.svg'
+import Button from '../Button/Button';
 export default function Header() {
     const { t, i18n } = useTranslation();
     const handleChange = (event) => {
@@ -34,7 +35,7 @@ export default function Header() {
                                     <option value="ru">Russian</option>
                                 </select>
                             </div>
-                            <div className="header-btn">{t("free")}</div>
+                            <Button/>
                         </div>
                     </div>
                 </div>
