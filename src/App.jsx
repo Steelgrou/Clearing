@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import './App.css'
 import Header from './Components/Header/Header'
 import Contact from './Components/Contact/Contact'
+import Entrance from './Components/Entrance/Entrance'
 // import { useTranslation } from 'react-i18next'
 export default function App() {
 
@@ -15,6 +16,7 @@ export default function App() {
   return (
     <>
       <Header />
+      <Entrance />
       <Contact />
     </>
   )

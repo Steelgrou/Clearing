@@ -1,6 +1,6 @@
 import './Header.css'
 import { useTranslation } from 'react-i18next'
-
+import logo from '/logo.svg'
 export default function Header() {
     const { t, i18n } = useTranslation();
     const handleChange = (event) => {
@@ -15,7 +15,7 @@ export default function Header() {
                     <div className="header-wrapper">
                         <div className="header-left">
                             <div className="header-logo">
-                                <img src="" alt="" />
+                                <img src={logo} alt="" />
                             </div>
                             <nav>
                                 <ul>
