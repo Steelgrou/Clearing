@@ -1,0 +1,8 @@
+.contact-img__phone {
+    width: 30px;
+}
+
+.contact-call {
+    display: flex;
+    align-items: center;
+}
