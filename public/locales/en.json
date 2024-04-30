@@ -1,26 +1,33 @@
 {
-       "home": "Home",
-       "about": "About",
-       "services": "Services",
-       "articles": "Articles",
-       "contact": "Contact",
-       "free": "Get a free quote",
-       "contact-title": "Contact Us",
-       "contact-subtitle": "In dignissim euismod pretium amet enim a eu nam ut urna accumsan pellentesque lacus duis pharetra eutortor.",
-       "contact-number": "Call us now",
-       "contact-quest": "Not convinced yet?",
-       "contact-desc": "Massa bibendum consectetur maurisid gravida purus, dolor dui amet morbi non nunc urna purus diam.",
-       "contact-btn": "Browse our packages",
-       "contact-fullname": "Full name",
-       "contact-phone": "Phone number",
-       "contact-address": "Adress",
-       "contact-email": "Email",
-       "contact-request": "Requested service",
-       "contact-service": "Day of service",
-       "contact-add": "Add a note",
-       "contact-submit": "Submit message",
-       "contact-placeholder-address": "please enter an address",
-       "contact-placeholder-email": "please enter an email",
-       "entrance-title": "Quality cleaning for your home",
-       "entrance-subtitle": "But if you look into the catalogue of modern, stylish equipment  for your home, you see this for your home, you see this."
+       "header": {
+              "home": "Home",
+              "about": "About",
+              "services": "Services",
+              "articles": "Articles",
+              "contact": "Contact",
+              "free": "Get a free quote"
+       },
+       "entrance": {
+              "title": "Quality cleaning for your home",
+              "subtitle": "But if you look into the catalogue of modern, stylish equipment  for your home, you see this for your home, you see this."
+       },
+       "contact": {
+              "title": "Contact Us",
+              "subtitle": "In dignissim euismod pretium amet enim a eu nam ut urna accumsan pellentesque lacus duis pharetra eutortor.",
+              "number": "Call us now",
+              "quest": "Not convinced yet?",
+              "desc": "Massa bibendum consectetur maurisid gravida purus, dolor dui amet morbi non nunc urna purus diam.",
+              "btn": "Browse our packages",
+              "fullname": "Full name",
+              "phone": "Phone number",
+              "address": "Adress",
+              "email": "Email",
+              "request": "Requested service",
+              "service": "Day of service",
+              "add": "Add a note",
+              "submit": "Submit message",
+              "placeholder-address": "please enter an address",
+              "placeholder-email": "please enter an email",
+              "button": "Get a free quote"
+       }
 }

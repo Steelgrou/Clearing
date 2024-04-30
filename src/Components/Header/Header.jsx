@@ -20,11 +20,11 @@ export default function Header() {
                             </div>
                             <nav>
                                 <ul>
-                                    <li><a href="#">{t('home')}</a></li>
-                                    <li><a href="#">{t('about')}</a></li>
-                                    <li><a href="#">{t('services')}</a></li>
-                                    <li><a href="#">{t('articles')}</a></li>
-                                    <li><a href="#">{t('contact')}</a></li>
+                                    <li><a href="#">{t('header.home')}</a></li>
+                                    <li><a href="#">{t('header.about')}</a></li>
+                                    <li><a href="#">{t('header.services')}</a></li>
+                                    <li><a href="#">{t('header.articles')}</a></li>
+                                    <li><a href="#">{t('header.contact')}</a></li>
                                 </ul>
                             </nav>
                         </div>

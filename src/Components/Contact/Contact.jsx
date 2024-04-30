@@ -46,57 +46,57 @@ export default function Contact() {
                 <div className="container">
                     <div className="contact-wrapper">
                         <div className="contact-left">
-                            <h2 className='contact-title'>{t('contact-title')}</h2>
-                            <h4 className='contact-subtitle'>{t('contact-subtitle')}</h4>
+                            <h2 className='contact-title'>{t('contact.title')}</h2>
+                            <h4 className='contact-subtitle'>{t('contact.subtitle')}</h4>
                             <div className="contact-call">
                                 <div className="contact-img">
                                     <img className='contact-img__phone' src={call} alt="" />
                                 </div>
                                 <div className="contact-number">
-                                    <h3>{t('contact-number')}</h3>
+                                    <h3>{t('contact.number')}</h3>
                                     <a href="tel:+998993024512">(414) 567 - 2109</a>
 
                                 </div>
 
                             </div>
-                            <h5 className='contact-quest'>{t('contact-quest')}</h5>
-                            <h6 className='contact-desc'>{t('contact-desc')}</h6>
-                            <button className='contact-btn'>{t('contact-btn')}</button>
+                            <h5 className='contact-quest'>{t('contact.quest')}</h5>
+                            <h6 className='contact-desc'>{t('contact.desc')}</h6>
+                            <button className='contact-btn'>{t('contact.btn')}</button>
                         </div>
                         <div className="contact-right">
                             <form id='myForm' onSubmit={sendMessage}>
 
                                 <div className="div">
-                                    <label htmlFor="text">{t('contact-fullname')}</label>
+                                    <label htmlFor="text">{t('contact.fullname')}</label>
                                     <input type="text" id='name' required />
                                 </div>
 
                                 <div className="div">
-                                    <label htmlFor="">{t('contact-phone')}</label>
+                                    <label htmlFor="">{t('contact.phone')}</label>
                                     <input type="text" id='number' placeholder='+998' required />
                                 </div>
 
                                 <div className="div">
-                                    <label htmlFor="">{t('contact-address')}</label>
-                                    <input type="text" id='adress' placeholder={t('contact-placeholder-address')} required />
+                                    <label htmlFor="">{t('contact.address')}</label>
+                                    <input type="text" id='adress' placeholder={t('contact.placeholder-address')} required />
                                 </div>
                                 <div className="div">
-                                    <label htmlFor="">{t('contact-email')}</label>
-                                    <input type="text" id='email' placeholder={t('contact-placeholder-email')} required />
+                                    <label htmlFor="">{t('contact.email')}</label>
+                                    <input type="text" id='email' placeholder={t('contact.placeholder-email')} required />
                                 </div>
                                 <div className="div">
-                                    <label htmlFor=""> {t('contact-request')}</label>
+                                    <label htmlFor=""> {t('contact.request')}</label>
                                     <input type="text" id='service' />
                                 </div>
                                 <div className="div">
-                                    <label htmlFor="">{t('contact-service')}</label>
+                                    <label htmlFor="">{t('contact.service')}</label>
                                     <input type="text" id='day' />
                                 </div>
                                 <div className="btn">
-                                    <label htmlFor="">{t('contact-add')}</label>
+                                    <label htmlFor="">{t('contact.add')}</label>
                                     <input type="text" id='add' />
                                 </div>
-                                <button className='btn-grad' type='submit'>{t('contact-submit')}</button>
+                                <button className='btn-grad' type='submit'>{t('contact.submit')}</button>
                             </form>
 
                         </div>

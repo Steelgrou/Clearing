@@ -18,8 +18,8 @@ export default function Entrance() {
         <div className="container">
           <div className="entrance-wrapper">
             <div className="entrance-left">
-              <h2 className='entrance-title'>{t('entrance-title')}</h2>
-              <h3 className='entrance-subtitle'>{t('entrance-subtitle')}</h3>
+              <h2 className='entrance-title'>{t('entrance.title')}</h2>
+              <h3 className='entrance-subtitle'>{t('entrance.subtitle')}</h3>
               <div className="entrance-box">
                 <Button />
                 <Call />
