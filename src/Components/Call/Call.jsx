@@ -15,7 +15,7 @@ export default function Call() {
                     <img className='contact-img__phone' src={call} alt="" />
                 </div>
                 <div className="contact-number">
-                    <h3>{t('contact-number')}</h3>
+                    <h3>{t('contact.number')}</h3>
                     <a href="tel:+998993024512">(414) 567 - 2109</a>
 
                 </div>
