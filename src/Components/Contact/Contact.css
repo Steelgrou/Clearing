@@ -5,7 +5,7 @@
 
 .contact-wrapper {
     display: flex;
-    width: 100%;
+    gap: 25px;
     padding: 90px 0;
 
 
@@ -17,13 +17,13 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 57.98px;
-    text-align: left;
+
     color: #211F54;
 
 }
 
 .contact-subtitle {
-
+    min-width: 400px;
     font-size: 21px;
     font-weight: 400;
     line-height: 30.01px;
@@ -33,17 +33,16 @@
 }
 
 .contact-left {
-    width: 50%;
+
     display: flex;
     flex-direction: column;
     gap: 25px;
-    padding: 0 35px 0 0;
+    padding: 0 60px 0 0;
 }
 
 .contact-right {
     background-color: #FFFFFF;
-    width: 50%;
-    padding: 50px;
+    padding: 50px 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 12px;
 
@@ -53,53 +52,46 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 15px;
-    justify-content: space-between;
+    gap: 30px;
+    padding-left: 25px;
+
+
 }
 
 #myForm .div {
     display: flex;
-
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 #myForm input {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 25px;
+    padding: 30px 50px;
     border: 0;
+    border-radius: 15px;
 }
 
-.btn {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    width: 100%;
-}
 
-.btn input {
-    padding: 100px 0;
-}
 
 .btn-grad {
     background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
-    margin: 10px;
-    padding: 25px 45px;
+
+    padding: 15px 45px;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
-    display: block;
+
     border: 0;
     cursor: pointer;
 }
 
 .btn-grad:hover {
     background-position: right center;
-    color: #fff;
-    text-decoration: none;
+   
+ 
 }
 
 .contact-quest {
@@ -115,7 +107,7 @@
 }
 
 .contact-btn {
-    width: 50%;
+
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
 
-    width: 100%;
+    /* width: 100%; */
 }
 
 .entrance-left {
@@ -10,7 +10,7 @@
     flex-direction: column;
     gap: 25px;
     justify-content: space-between;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .entrance-title {
@@ -36,6 +36,6 @@
 
 
 .entrance-right {
-    width: 50%
+    /* width: 50% */
 }
 

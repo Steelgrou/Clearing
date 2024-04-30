@@ -34,11 +34,7 @@ nav ul li a {
 
 /* Responsive */
 
-@media (max-width: 1280px) {
-    nav {
-        display: none;
-    }
-}
+@media (max-width: 1280px) {}
 
 @media (max-width: 1024px) {
 
@@ -55,14 +51,18 @@ nav ul li a {
     }
 
     #myForm div {
-        width: 100%;
+        /* width: 100%; */
     }
 }
 
 @media (max-width: 768px) {
+    nav {
+        display: none;
+    }
 
-    .entrance-right img {
-        width: 100%
+    .contact-wrapper {
+        flex-direction: column;
+
     }
 
     .entrance h2 {
@@ -74,9 +74,6 @@ nav ul li a {
         font-size: 18px;
     }
 
-    #myForm div {
-        width: 100%;
-    }
 
     .contact-left h2 {
         font-size: 36px;
@@ -103,7 +100,7 @@ nav ul li a {
     }
 
     .entrance-right img {
-        width: 100%
+        /* width: 100% */
     }
 
     .entrance h2 {
@@ -142,7 +139,7 @@ nav ul li a {
     }
 
     .contact-left button {
-        width: 100%;
+        /* width: 100%; */
         padding: 20px;
         font-size: 16px;
     }
@@ -187,7 +184,7 @@ nav ul li a {
     }
 
     .entrance-right img {
-        width: 100%
+        /* width: 100% */
     }
 
     .entrance h2 {
@@ -224,7 +221,7 @@ nav ul li a {
     }
 
     .contact-left button {
-        width: 100%;
+        /* width: 100%; */
         padding: 20px;
         font-size: 16px;
     }
@@ -243,11 +240,11 @@ nav ul li a {
     }
 
     .contact-right {
-        width: 100%;
+        /* width: 100%; */
     }
 
 
     .contact-left {
-        width: 100%;
+        /* width: 100%; */
     }
 }
