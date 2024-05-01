@@ -2,7 +2,12 @@ import './Header.css'
 import { useTranslation } from 'react-i18next'
 import logo from '/logo.svg'
 import Button from '../Button/Button';
+// Link
+import { Link } from 'react-router-dom'
+
+
 export default function Header() {
+    // Lang fuction
     const { t, i18n } = useTranslation();
     const handleChange = (event) => {
         const selectedLaungage = event.target.value;
@@ -20,11 +25,11 @@ export default function Header() {
                             </div>
                             <nav>
                                 <ul>
-                                    <li><a href="#">{t('header.home')}</a></li>
-                                    <li><a href="#">{t('header.about')}</a></li>
-                                    <li><a href="#">{t('header.services')}</a></li>
-                                    <li><a href="#">{t('header.articles')}</a></li>
-                                    <li><a href="#">{t('header.contact')}</a></li>
+                                    <li><Link to='/'>{t('header.home')}</Link></li>
+                                    <li><Link to='/About'>{t('header.about')}</Link></li>
+                                    <li><Link to="/">{t('header.services')}</Link></li>
+                                    <li><Link to="/">{t('header.articles')}</Link></li>
+                                    <li><Link to="/">{t('header.contact')}</Link></li>
                                 </ul>
                             </nav>
                         </div>

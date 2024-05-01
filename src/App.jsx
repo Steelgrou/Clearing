@@ -1,11 +1,17 @@
-
-import { useState, useEffect, useTransition } from 'react'
-import { useTranslation } from 'react-i18next'
+// Style
 import './App.css'
-import Header from './Components/Header/Header'
-import Contact from './Components/Contact/Contact'
-import Entrance from './Components/Entrance/Entrance'
-// import { useTranslation } from 'react-i18next'
+
+// Pages
+import About from './Pages/About/About';
+import Homepage from './Pages/Homepage/Homepage';
+
+//Lang
+import { useTranslation } from 'react-i18next'
+
+//React-Router-dom
+import { Routes, Route } from 'react-router-dom'
+
+
 export default function App() {
 
   const { t, i18n } = useTranslation();
@@ -15,9 +21,11 @@ export default function App() {
   }
   return (
     <>
-      <Header />
-      <Entrance />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/About" element={<About />} />
+      </Routes>
+
     </>
   )
 }

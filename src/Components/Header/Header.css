@@ -50,9 +50,7 @@ nav ul li a {
         font-size: 46px;
     }
 
-    #myForm div {
-        /* width: 100%; */
-    }
+  
 }
 
 @media (max-width: 768px) {
@@ -99,10 +97,7 @@ nav ul li a {
 
     }
 
-    .entrance-right img {
-        /* width: 100% */
-    }
-
+ 
     .entrance h2 {
         padding-top: 10px;
         font-size: 30px;
@@ -139,7 +134,8 @@ nav ul li a {
     }
 
     .contact-left button {
-        /* width: 100%; */
+      
+
         padding: 20px;
         font-size: 16px;
     }
@@ -168,14 +164,14 @@ nav ul li a {
 
     }
 
-    .entrance-left {}
+   
 
     .contact-wrapper {
         flex-direction: column;
 
     }
 
-    .contact-right div {}
+    
 
 
     .header-logo img {
@@ -183,9 +179,7 @@ nav ul li a {
 
     }
 
-    .entrance-right img {
-        /* width: 100% */
-    }
+ 
 
     .entrance h2 {
         padding-top: 10px;
@@ -197,7 +191,7 @@ nav ul li a {
         font-size: 16px;
     }
 
-    #myForm div {}
+   
 
     .contact-left h2 {
         font-size: 30px;
@@ -221,7 +215,7 @@ nav ul li a {
     }
 
     .contact-left button {
-        /* width: 100%; */
+      
         padding: 20px;
         font-size: 16px;
     }
@@ -239,12 +233,5 @@ nav ul li a {
 
     }
 
-    .contact-right {
-        /* width: 100%; */
-    }
-
-
-    .contact-left {
-        /* width: 100%; */
-    }
+ 
 }
