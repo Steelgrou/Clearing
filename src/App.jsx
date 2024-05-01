@@ -2,8 +2,9 @@
 import './App.css'
 
 // Pages
-import About from './Pages/About/About';
 import Homepage from './Pages/Homepage/Homepage';
+import Aboutpage from './Pages/Aboutpage/Aboutpage';
+import Servicespage from './Pages/Servicespage/Servicespage';
 
 //Lang
 import { useTranslation } from 'react-i18next'
@@ -23,7 +24,8 @@ export default function App() {
     <>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/Aboutpage" element={<Aboutpage />} />
+        <Route path="/Servicespage" element={<Servicespage />} />
       </Routes>
 
     </>

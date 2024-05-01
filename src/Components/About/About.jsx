@@ -1,14 +1,14 @@
-import Btn from "../../Components/Button/Btn"
-import Button from "../../Components/Button/Button"
-import Card from "../../Components/Card/Card"
-import Header from "../../Components/Header/Header"
+import Btn from "../Button/Btn"
+import Button from "../Button/Button"
+import Card from "../Card/Card"
+
 import "./About.css"
 
 export default function About() {
 
     return (
         <>
-            <Header />
+            
             <section className="about">
                 <div className="container">
                     <div className="about-wrapper">

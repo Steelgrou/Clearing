@@ -26,8 +26,8 @@ export default function Header() {
                             <nav>
                                 <ul>
                                     <li><Link to='/'>{t('header.home')}</Link></li>
-                                    <li><Link to='/About'>{t('header.about')}</Link></li>
-                                    <li><Link to="/">{t('header.services')}</Link></li>
+                                    <li><Link to='/Aboutpage'>{t('header.about')}</Link></li>
+                                    <li><Link to="/Servicespage">{t('header.services')}</Link></li>
                                     <li><Link to="/">{t('header.articles')}</Link></li>
                                     <li><Link to="/">{t('header.contact')}</Link></li>
                                 </ul>
