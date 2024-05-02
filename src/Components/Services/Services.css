@@ -1,0 +1,29 @@
+.services-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.services-title {
+    font-size: 48px;
+    color: #211F54;
+}
+
+.services-subtitle {
+    max-width: 500px;
+    font-size: 16px;
+    color: #6E7191;
+    font-weight: 500;
+}
+
+.services-cards {
+    display: flex;
+    gap: 15px;
+
+}
+
+.services-btn {
+    display: flex;
+    gap: 25px;
+}

@@ -3,6 +3,7 @@ import Contact from "../../Components/Contact/Contact"
 import Entrance from "../../Components/Entrance/Entrance"
 import Footer from "../../Components/Footer/Footer"
 import Header from "../../Components/Header/Header"
+import Services from "../../Components/Services/Services"
 
 import "./Homepage.css"
 
@@ -13,6 +14,7 @@ export default function Homepage() {
             <Header />
             <Entrance />
             <About/>
+            <Services/>
             <Contact />
             <Footer/>
         </>
