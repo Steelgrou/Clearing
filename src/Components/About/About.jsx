@@ -1,20 +1,23 @@
 import Btn from "../Button/Btn"
 import Button from "../Button/Button"
 import Card from "../Card/Card"
-
+import { useTranslation } from 'react-i18next'
 import "./About.css"
 
 export default function About() {
-
+    const { t, i18n } = useTranslation();
+    const handleChange = (event) => {
+        const selectedLaungage = event.target.value;
+        i18n.changeLanguage(selectedLaungage);
+    }
     return (
         <>
 
             <section className="about">
                 <div className="container">
                     <div className="about-wrapper">
-                        <h2 className="about-title">About Us</h2>
-                        <h4 className="about-subtitle">Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque
-                            nisi felis non ultrices massa id egestas quam velit pretium nu.</h4>
+                        <h2 className="about-title">{t('about.title')}</h2>
+                        <h4 className="about-subtitle">{t('about.subtitle')}</h4>
 
                         <div className="about-cards">
                             <Card title={"1. Schedule online"} subtitle={"Sagittis nibh scelerisque vitae egetolment vulputate sem elementum sed n."} />

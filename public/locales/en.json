@@ -29,5 +29,21 @@
               "placeholder-address": "please enter an address",
               "placeholder-email": "please enter an email",
               "button": "Get a free quote"
+       },
+       "about": {
+              "title": "About Us",
+              "subtitle": "Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque nisi felis non ultrices massa id egestas quam velit pretium nu."
+       },
+       "services": {
+              "title": "Our Services",
+              "btn": "Explore services"
+       },
+       "footer": {
+              "title": "Quality cleaning for your home",
+              "contact": "Quality cleaning for your home",
+              "hours": "Hours",
+              "monday": "Monday to Friday",
+              "suturday": "Saturday & Sunday",
+              "get": "Quality cleaning for your home"
        }
 }
