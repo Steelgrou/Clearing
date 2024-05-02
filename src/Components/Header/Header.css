@@ -50,12 +50,12 @@ nav ul li a {
         font-size: 46px;
     }
 
-  
+
 }
 
 @media (max-width: 768px) {
     nav {
-        display: none; 
+        display: none;
     }
 
     .contact-wrapper {
@@ -97,7 +97,40 @@ nav ul li a {
 
     }
 
- 
+    .services-cards {
+        flex-direction: column;
+
+    }
+
+    .about-cards {
+        flex-direction: column;
+    }
+
+  
+
+    .footer-up {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+
+    }
+
+    .footer-up {
+        flex-direction: column;
+
+    }
+
+    .footer-down {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-license {
+        flex-direction: column;
+    }
+
     .entrance h2 {
         padding-top: 10px;
         font-size: 30px;
@@ -134,7 +167,7 @@ nav ul li a {
     }
 
     .contact-left button {
-      
+
 
         padding: 20px;
         font-size: 16px;
@@ -164,14 +197,14 @@ nav ul li a {
 
     }
 
-   
+
 
     .contact-wrapper {
         flex-direction: column;
 
     }
 
-    
+
 
 
     .header-logo img {
@@ -179,7 +212,7 @@ nav ul li a {
 
     }
 
- 
+
 
     .entrance h2 {
         padding-top: 10px;
@@ -191,7 +224,7 @@ nav ul li a {
         font-size: 16px;
     }
 
-   
+
 
     .contact-left h2 {
         font-size: 30px;
@@ -215,7 +248,7 @@ nav ul li a {
     }
 
     .contact-left button {
-      
+
         padding: 20px;
         font-size: 16px;
     }
@@ -233,5 +266,5 @@ nav ul li a {
 
     }
 
- 
+
 }
