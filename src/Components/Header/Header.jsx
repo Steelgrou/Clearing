@@ -14,22 +14,33 @@ export default function Header() {
         i18n.changeLanguage(selectedLaungage);
     }
 
+
+    // Burger
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("burger").addEventListener("click", function () {
+            document.querySelector("header").classList.toggle("open")
+        })
+    })
+
     return (
         <>
             <section className='header'>
                 <div className="container">
+                    <button className='header-btn' id='burger'>
+                        <span></span><span></span><span></span>
+                    </button>
                     <div className="header-wrapper">
                         <div className="header-left">
                             <div className="header-logo">
                                 <img src={logo} alt="" />
                             </div>
                             <nav>
-                                <ul>
-                                    <li><Link to='/'>{t('header.home')}</Link></li>
-                                    <li><Link to='/Aboutpage'>{t('header.about')}</Link></li>
-                                    <li><Link to="/Servicespage">{t('header.services')}</Link></li>
-                                    <li><Link to="/">{t('header.articles')}</Link></li>
-                                    <li><Link to="/">{t('header.contact')}</Link></li>
+                                <ul className='header-list'>
+                                    <li><Link to='/' className='header-link'>{t('header.home')}</Link></li>
+                                    <li><Link to='/Aboutpage' className='header-link'>{t('header.about')}</Link></li>
+                                    <li><Link to="/Servicespage" className='header-link'>{t('header.services')}</Link></li>
+                                    <li><Link to="/" className='header-link'>{t('header.articles')}</Link></li>
+                                    <li><Link to="/" className='header-link'>{t('header.contact')}</Link></li>
                                 </ul>
                             </nav>
                         </div>
@@ -40,7 +51,7 @@ export default function Header() {
                                     <option value="ru">Russian</option>
                                 </select>
                             </div>
-                            <Button/>
+                            <Button />
                         </div>
                     </div>
                 </div>
