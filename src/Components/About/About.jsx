@@ -4,6 +4,13 @@ import Card from "../Card/Card"
 import { useTranslation } from 'react-i18next'
 import "./About.css"
 import logos from '/logo.svg'
+import aboutFirst from '/about-card-first.jpg'
+import aboutSecond from '/about-card-second.jpg'
+import aboutThird from '/about-card-third.jpg'
+const room = {
+"title" : "Sagittis nibh scelerisque vitae egetolment vulputate sem elementum sed "
+}
+
 
 
 export default function About() {
@@ -24,9 +31,9 @@ export default function About() {
                         <h4 className="about-subtitle">{t('about.subtitle')}</h4>
 
                         <div className="about-cards">
-                            <Card img={logos} title={t('card.title')} subtitle={"Sagittis nibh scelerisque vitae egetolment vulputate sem elementum sed n."} />
-                            <Card title={"2. Pay online easily"} subtitle={"Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet at nunc."} />
-                            <Card title={"3. Get your house cleaned"} subtitle={"Nunc maecenas sollicitudin metus tellus mattis sed porttitor cursus eleifend."} />
+                            <Card img={aboutFirst} title={t('about-card.title.first')} subtitle={t('about-card.subtitle.all')} />
+                            <Card img={aboutSecond} title={t('about-card.title.second')} subtitle={t('about-card.subtitle.all')} />
+                            <Card img={aboutThird} title={t('about-card.title.third')} subtitle={t('about-card.subtitle.all')} />
                         </div>
 
                         <div className="about-btn">

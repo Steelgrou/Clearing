@@ -47,6 +47,10 @@ nav ul li a {
 
 @media (max-width: 1024px) {
 
+    .contact-wrapper {
+        flex-direction: column;
+
+    }
     .entrance-right img {
         width: 100%
     }
@@ -106,6 +110,10 @@ nav ul li a {
         flex-direction: column;
         align-items: start;
     }
+    .max-input{
+        min-width: 0;
+    }
+    
 
 
 }
@@ -124,7 +132,6 @@ nav ul li a {
     .about-cards {
         flex-direction: column;
     }
-
 
 
     .footer-up {

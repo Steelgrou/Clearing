@@ -46,8 +46,14 @@
               "suturday": "Saturday & Sunday",
               "get": "Quality cleaning for your home"
        },
-       "card":{
-              "title":"ffb"
+       "about-card": {
+              "title": {
+                     "first": "1. Schedule online",
+                     "second": "2. Pay online easily",
+                     "thrid": "3. Get your house cleaned"
+              },
+              "subtitle": {
+                     "all":"In our work, we use only professional equipment of high quality manufactured by leading manufacturers."
+              }
        }
-
 }

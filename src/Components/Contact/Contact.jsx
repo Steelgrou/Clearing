@@ -92,11 +92,14 @@ export default function Contact() {
                                     <label htmlFor="">{t('contact.service')}</label>
                                     <input type="text" id='day' />
                                 </div>
-                                <div className="div contact-full">
+                                <div className="div max-input">
                                     <label htmlFor="">{t('contact.add')}</label>
                                     <input type="text" id='add' />
                                 </div>
+                                
+                                    
                                 <button className='btn-grad' type='submit'>{t('contact.submit')}</button>
+                              
                             </form>
 
                         </div>

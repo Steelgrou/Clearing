@@ -1,16 +1,41 @@
 .card {
     padding: 15px;
     border: 1px solid black;
+
+}
+
+.card-box {
+   
+}
+
+#card img {
+    object-fit: cover;
+    max-width: 300px;
+    border-radius: 5px;
+    min-height: 200px;
 }
 
 .card-wrapper {
     display: flex;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    min-height: 380px;
+}
 
+.card-wrapper:hover {
+    transform:scale(1.03);
 }
 
 
 
 .card-wrapper h4 {
+    max-width: 250px;
+
+}
+
+.card-wrapper h2 {
     max-width: 300px;
 
 }

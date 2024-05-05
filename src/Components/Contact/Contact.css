@@ -7,19 +7,13 @@
     display: flex;
     gap: 25px;
     padding: 90px 0;
-
-
-
 }
 
 .contact-title {
-
     font-size: 48px;
     font-weight: 700;
     line-height: 57.98px;
-
     color: #211F54;
-
 }
 
 .contact-subtitle {
@@ -28,12 +22,9 @@
     font-weight: 400;
     line-height: 30.01px;
     color: #6E7191;
-
-
 }
 
 .contact-left {
-
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -54,8 +45,6 @@
     flex-direction: row;
     gap: 30px;
     padding-left: 25px;
-
-
 }
 
 #myForm .div {
@@ -66,32 +55,32 @@
 
 #myForm input {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 30px 50px;
+    padding: 25px 50px;
     border: 0;
     border-radius: 15px;
 }
 
-
+.max-input {
+    min-width: 570px;
+    
+}
 
 .btn-grad {
-    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
 
-    padding: 15px 45px;
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+    padding: 25px 45px;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
-
     border: 0;
     cursor: pointer;
 }
 
 .btn-grad:hover {
     background-position: right center;
-   
- 
 }
 
 .contact-quest {
