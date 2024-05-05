@@ -45,5 +45,9 @@
               "monday": "Monday to Friday",
               "suturday": "Saturday & Sunday",
               "get": "Quality cleaning for your home"
+       },
+       "card":{
+              "title":"ffb"
        }
+
 }

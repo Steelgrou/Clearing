@@ -2,7 +2,7 @@ import './Card.css'
 import card from '/logo.svg'
 
 
-export default function Card({ title, subtitle }) {
+export default function Card({ title, subtitle, img }) {
 
 
     return (
@@ -11,7 +11,7 @@ export default function Card({ title, subtitle }) {
 
                 <div className="card-wrapper">
                     <div className="card-box">
-                        <img className='card-img' src={card} alt="" />
+                        <img className={card} src={img} alt="error" />
                         <h2>{title}</h2>
                         <h4>{subtitle}</h4>
                     </div>
