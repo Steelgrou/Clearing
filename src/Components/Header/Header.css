@@ -21,7 +21,10 @@ nav ul li a {
 
     color: #211F54;
 }
+nav ul li a:hover {
 
+    color: #fd580b8d;
+}
 .header-left {
     display: flex;
     gap: 20px;
