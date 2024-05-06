@@ -6,7 +6,9 @@ import HeaderMenu from "../../Components/Header/BasicMenu"
 // Link
 import { Link } from 'react-router-dom'
 
+import ruFlag from '/flag.png'
 
+import enFlag from '/flag.png'
 
 export default function Header() {
     // Lang function
@@ -43,12 +45,14 @@ export default function Header() {
                         </div>
                         <div className="header-right">
                             <div className="header-box">
-                                <select name="Lang" id="Lang" onChange={handleChange}>
-                                    <option value="en">English</option>
-                                    <option value="ru">Russian</option>
+                                <select name="Lang" id="Lang" onChange={handleChange} className="language-selector">
+                                    <option value="en"><img className='ruFlag' src={ruFlag} alt="ruFlag" />English</option>
+                                    <option value="ru"> <img className='enFlag' src={enFlag} alt="enFlag" />Русский</option>
                                 </select>
                             </div>
+                            <div className="header-btn">
                             <Button />
+                            </div>
                         </div>
                     </div>
                 </div>

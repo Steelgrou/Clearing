@@ -65,6 +65,13 @@
               "subtitle": {
                      "all":"In our work, we use only professional equipment of high quality manufactured by leading manufacturers."
               }
-       }       
+       } ,
+       "menu":{
+              "home" :"HOME",
+              "about" :"ABOUT",
+              "services" :"SERVICES",
+              "articles" :"ARTICLES",
+              "contact" :"CONTACT"
+       }      
        
 }

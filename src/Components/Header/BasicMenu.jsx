@@ -52,11 +52,11 @@ export default function BasicMenu() {
                     'aria-labelledby': 'basic-button',
                 }}
             >
-                <MenuItem onClick={handleClose}> <Link to="/" className='basic-link'>HOME <img className='basic-logo' src={homeLogo} alt="" /></Link></MenuItem>
-                <MenuItem onClick={handleClose}> <Link to="/aboutpage" className='basic-link'>ABOUT</Link></MenuItem>
-                <MenuItem onClick={handleClose}><Link to="/servicespage" className='basic-link'>SERVICES <img className='basic-logo' src={servicesLogo} alt="" /></Link></MenuItem>
-                <MenuItem onClick={handleClose}><Link to="/" className='basic-link'>ARTICLES</Link></MenuItem>
-                <MenuItem onClick={handleClose}><Link to="/contactpage" className='basic-link'>CONTACT <img className='basic-logo' src={contactLogo} alt="" /></Link></MenuItem>
+                <MenuItem onClick={handleClose}> <Link to="/" className='basic-link'>{t('menu.home')}<img className='basic-logo' src={homeLogo} alt="" /></Link></MenuItem>
+                <MenuItem onClick={handleClose}> <Link to="/aboutpage" className='basic-link'>{t('menu.about')}</Link></MenuItem>
+                <MenuItem onClick={handleClose}><Link to="/servicespage" className='basic-link'>{t('menu.services')}<img className='basic-logo' src={servicesLogo} alt="" /></Link></MenuItem>
+                <MenuItem onClick={handleClose}><Link to="/" className='basic-link'>{t('menu.articles')}</Link></MenuItem>
+                <MenuItem onClick={handleClose}><Link to="/contactpage" className='basic-link'>{t('menu.contact')}<img className='basic-logo' src={contactLogo} alt="" /></Link></MenuItem>
             </Menu>
 
 
