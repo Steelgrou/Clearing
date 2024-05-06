@@ -5,6 +5,12 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import burger from '/burger.svg'
 import { Link } from 'react-router-dom';
+import './BasicMenu.css'
+
+import servicesLogo from '/menu-services-logo.svg'
+import homeLogo from '/menu-home-logo.svg'
+import contactLogo from '/menu-contact-logo.svg'
+
 
 export default function BasicMenu() {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -28,7 +34,7 @@ export default function BasicMenu() {
             >
                 <img src={burger} className='header-burger' alt="false"  />
             </Button>
-            <Menu
+            <Menu 
                 id="basic-menu"
                 anchorEl={anchorEl}
                 open={open}
@@ -37,11 +43,11 @@ export default function BasicMenu() {
                     'aria-labelledby': 'basic-button',
                 }}
             >
-                <MenuItem onClick={handleClose}> <Link to="/">Home</Link></MenuItem>
-                <MenuItem onClick={handleClose}> <Link to="/aboutpage">About</Link></MenuItem>
-                <MenuItem onClick={handleClose}><Link to="/servicespage">Services</Link></MenuItem>
-                <MenuItem onClick={handleClose}><Link to="/">Articles</Link></MenuItem>
-                <MenuItem onClick={handleClose}><Link to="/contactpage">Contact</Link></MenuItem>
+                <MenuItem onClick={handleClose}> <Link to="/" className='basic-link'>HOME <img className='basic-logo' src={homeLogo} alt="" /></Link></MenuItem>
+                <MenuItem onClick={handleClose}> <Link to="/aboutpage" className='basic-link'>ABOUT</Link></MenuItem>
+                <MenuItem onClick={handleClose}><Link to="/servicespage" className='basic-link'>SERVICES <img className='basic-logo' src={servicesLogo} alt="" /></Link></MenuItem>
+                <MenuItem onClick={handleClose}><Link to="/" className='basic-link'>ARTICLES</Link></MenuItem>
+                <MenuItem onClick={handleClose}><Link to="/contactpage" className='basic-link'>CONTACT <img className='basic-logo' src={contactLogo} alt="" /></Link></MenuItem>
             </Menu>
 
 
