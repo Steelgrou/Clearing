@@ -6,6 +6,7 @@ import MenuItem from '@mui/material/MenuItem';
 import burger from '/burger.svg'
 import { Link } from 'react-router-dom';
 import './BasicMenu.css'
+import { useTranslation } from 'react-i18next'
 
 import servicesLogo from '/menu-services-logo.svg'
 import homeLogo from '/menu-home-logo.svg'
@@ -13,6 +14,14 @@ import contactLogo from '/menu-contact-logo.svg'
 
 
 export default function BasicMenu() {
+    //lang
+    const { t, i18n } = useTranslation();
+    const handleChange = (event) => {
+        const selectedLaungage = event.target.value;
+        i18n.changeLanguage(selectedLaungage);
+    }
+    //Menu
+
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
     const handleClick = (event) => {
@@ -32,9 +41,9 @@ export default function BasicMenu() {
                 aria-expanded={open ? 'true' : undefined}
                 onClick={handleClick}
             >
-                <img src={burger} className='header-burger' alt="false"  />
+                <img src={burger} className='header-burger' alt="false" />
             </Button>
-            <Menu 
+            <Menu
                 id="basic-menu"
                 anchorEl={anchorEl}
                 open={open}

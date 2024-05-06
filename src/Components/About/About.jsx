@@ -3,7 +3,6 @@ import Button from "../Button/Button"
 import Card from "../Card/Card"
 import { useTranslation } from 'react-i18next'
 import "./About.css"
-import logos from '/logo.svg'
 import aboutFirst from '/about-card-first.jpg'
 import aboutSecond from '/about-card-second.jpg'
 import aboutThird from '/about-card-third.jpg'
