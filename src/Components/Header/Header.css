@@ -7,7 +7,7 @@
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: url('/public/flag.png') no-repeat right center; /* Замените 'flag.png' на путь к изображению флага */
+   
     padding-right: 30px; /* Добавляем отступ для флага */
     border: none;
     border-radius: 5px;
