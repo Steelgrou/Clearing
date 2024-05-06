@@ -216,11 +216,16 @@ nav ul li a {
 
 
 @media (max-width: 449px) {
+   
     .entrance-wrapper {
 
 
         flex-direction: column;
 
+    }
+
+    .header-wrapper{
+        gap: 15px;
     }
 .button {
     font-size: 12px;
