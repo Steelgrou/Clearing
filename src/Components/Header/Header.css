@@ -222,7 +222,10 @@ nav ul li a {
         flex-direction: column;
 
     }
-
+.button {
+    font-size: 12px;
+    padding: 10px 20px;
+}
 
 
     .contact-wrapper {
