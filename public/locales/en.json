@@ -55,5 +55,16 @@
               "subtitle": {
                      "all":"In our work, we use only professional equipment of high quality manufactured by leading manufacturers."
               }
-       }
+       },
+       "services-card" :{
+              "title" :{
+                     "first":"House cleaning",
+                     "second":"Office cleaning",
+                     "third":"Industrial cleaning"
+              },
+              "subtitle": {
+                     "all":"In our work, we use only professional equipment of high quality manufactured by leading manufacturers."
+              }
+       }       
+       
 }

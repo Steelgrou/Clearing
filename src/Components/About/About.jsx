@@ -33,7 +33,7 @@ export default function About() {
                         <div className="about-cards">
                             <Card img={aboutFirst} title={t('about-card.title.first')} subtitle={t('about-card.subtitle.all')} />
                             <Card img={aboutSecond} title={t('about-card.title.second')} subtitle={t('about-card.subtitle.all')} />
-                            <Card img={aboutThird} title={t('about-card.title.third')} subtitle={t('about-card.subtitle.all')} />
+                            <Card img={aboutThird} title={t('about-card.title.thrid')} subtitle={t('about-card.subtitle.all')} />
                         </div>
 
                         <div className="about-btn">
